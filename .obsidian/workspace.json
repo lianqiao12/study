@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "b738c85387088e75",
+    "type": "split",
+    "children": [
+      {
+        "id": "40c8500389e4243d",
+        "type": "tabs",
+        "dimension": 42.136150234741784,
+        "children": [
+          {
+            "id": "aba3a0984af77799",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-索引/首页.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "首页"
+            }
+          }
+        ]
+      },
+      {
+        "id": "acb257f4f928c0ed",
+        "type": "tabs",
+        "dimension": 57.863849765258216,
+        "children": [
+          {
+            "id": "f45a69fa622cff8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10-项目笔记/ai-resume 项目架构.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ai-resume 项目架构"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f75ea51b84e7cda2",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae050d363fc6d4b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a4b26daf27b715d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "7aa02eff5580477d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "c0054bae646bb16a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e1663d5051544820",
+    "type": "split",
+    "children": [
+      {
+        "id": "61d66b52c435812b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5dc8e9e8dd40b463",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "10-项目笔记/ai-resume 项目架构.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "3d89fe40259d6490",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "10-项目笔记/ai-resume 项目架构.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "26d7e524408eab48",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "d2cc059c77fea382",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "385eca083cbec7ec",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "10-项目笔记/ai-resume 项目架构.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "f45a69fa622cff8c",
+  "lastOpenFiles": [
+    "20-技术概念/pgx 连接池与数据库迁移.md",
+    "20-技术概念/Go 作为网关代理 Python.md",
+    "20-技术概念/Go SSE 流式响应.md",
+    "00-索引/首页.md",
+    "20-技术概念/Echo 框架路由装配.md",
+    "20-技术概念/Go 后端分层架构.md",
+    "skills/知识库更新/scripts/update_kb.py",
+    "skills/知识库更新/references/categories.md",
+    "skills/知识库更新/assets/example_asset.txt",
+    "skills/知识库更新/assets",
+    "skills/知识库更新/references/api_reference.md",
+    "skills/知识库更新/references",
+    "skills/知识库更新/scripts/example.py",
+    "skills/知识库更新/scripts",
+    "skills/知识库更新/SKILL.md",
+    "skills/知识库更新",
+    "skills",
+    "10-项目笔记/ai-resume 项目架构.md",
+    "20-技术概念/SSE 流式通信.md",
+    "20-技术概念/Docker Compose 相对路径陷阱.md",
+    "20-技术概念/事件协议三端镜像.md",
+    "30-踩坑记录/docker-compose 路径错位导致 make up 失败.md",
+    "40-学习路线/ai-resume 学习接手路线.md",
+    "欢迎.md",
+    "40-学习路线",
+    "30-踩坑记录"
+  ]
+}
