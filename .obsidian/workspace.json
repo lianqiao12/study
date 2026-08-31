@@ -33,14 +33,10 @@
             "id": "f45a69fa622cff8c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10-项目笔记/ai-resume 项目架构.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ai-resume 项目架构"
+              "title": "新标签页"
             }
           }
         ]
@@ -212,6 +208,15 @@
   },
   "active": "f45a69fa622cff8c",
   "lastOpenFiles": [
+    "project_study/ai_resume/20-技术概念/事件协议三端镜像.md",
+    "project_study/ai_resume/20-技术概念/SSE 流式通信.md",
+    "project_study/ai_resume/20-技术概念/Go 后端分层架构.md",
+    "project_study/ai_resume/20-技术概念/pgx 连接池与数据库迁移.md",
+    "project_study/ai_resume/20-技术概念/Go 作为网关代理 Python.md",
+    "project_study/ai_resume/20-技术概念/Go SSE 流式响应.md",
+    "project_study/ai_resume/20-技术概念/Echo 框架路由装配.md",
+    "project_study/ai_resume/20-技术概念/Docker Compose 相对路径陷阱.md",
+    "project_study/ai_resume/20-技术概念",
     "20-技术概念/pgx 连接池与数据库迁移.md",
     "20-技术概念/Go 作为网关代理 Python.md",
     "20-技术概念/Go SSE 流式响应.md",
@@ -236,7 +241,6 @@
     "30-踩坑记录/docker-compose 路径错位导致 make up 失败.md",
     "40-学习路线/ai-resume 学习接手路线.md",
     "欢迎.md",
-    "40-学习路线",
-    "30-踩坑记录"
+    "40-学习路线"
   ]
 }
