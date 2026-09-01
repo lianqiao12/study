@@ -64,7 +64,7 @@
 ### 2.6 实用设置建议
 
 - 开启 `设置 → 核心插件 → 每日笔记 / 关系图谱 / 标签面板`。
-- 图谱里按文件夹/标签加"颜色分组"，提升区分度（见第四节）。
+- 图谱里按文件夹/标签加"颜色分组"，提升区分度（见第五节）。
 - 插件按需装：检索用 `Dataview`，模板用 `Templater`，画板用 `Canvas`。
 
 ---
@@ -160,7 +160,66 @@ git pull --tags origin main
 
 ---
 
-## 四、关系图谱配色（本仓库已配置）
+## 四、开发日志（每日自动记录）
+
+本仓库带一套"开发日志"机制：每次 `git commit` / `git push` 自动把提交信息写入
+`开发日志/YYYY-MM-DD.md`，无需手动记。由自定义 skill `skills/开发日志/` 驱动，
+底层是 `add_devlog.py` 脚本。
+
+### 4.1 手动记录
+
+对我说"记一下开发 / 今天开发了什么"，或直接跑脚本：
+```bash
+# 单行
+python3 skills/开发日志/scripts/add_devlog.py "修复了登录超时"
+# 多行(每条一行)
+(echo 修复A & echo 新增B) | python3 skills/开发日志/scripts/add_devlog.py
+# 指定日期
+python3 skills/开发日志/scripts/add_devlog.py --date 2026-09-01 "整理结构"
+```
+WSL 下可用包装脚本 `skills/开发日志/scripts/devlog.sh`：
+```bash
+bash skills/开发日志/scripts/devlog.sh "今天做了什么"
+```
+
+### 4.2 自动记录（git 钩子）
+
+仓库内带了 `post-commit` 与 `pre-push` 钩子（位于 `skills/开发日志/scripts/git-hooks/`），
+提交/推送时自动写日志。钩子默认**不在** `.git/hooks/`（不被 git 跟踪），所以新设备需激活：
+
+```bash
+# 新设备 clone 后,一键启用(自动设置 core.hooksPath 并加可执行权限):
+bash setup.sh
+```
+或手动：
+```bash
+git config core.hooksPath "$(git rev-parse --show-toplevel)/skills/开发日志/scripts/git-hooks"
+# WSL 还需:
+chmod +x "$(git rev-parse --show-toplevel)/skills/开发日志/scripts/git-hooks"/*
+```
+
+> 说明：git 出于安全默认不自动执行远端带来的钩子，故每台新设备要跑一次 `setup.sh`
+> （一条命令）；钩子跨 Windows / macOS / Linux，仅需新机装有 Python。
+
+### 4.3 日志格式
+
+单文件 `开发日志/YYYY-MM-DD.md`，每天一个，条目按时间倒序（最新在最上方）：
+```
+# 开发日志 2026-09-01
+
+> 每日记录开发进展。条目按时间倒序追加,最新在最上方。
+
+## 14:30
+
+- 把仓库 remote 从 HTTPS 切到 SSH
+- 给 Graph View 配了分组配色
+```
+
+完整约定见 `skills/开发日志/references/format.md`，skill 定义见 `skills/开发日志/SKILL.md`。
+
+---
+
+## 五、关系图谱配色（本仓库已配置）
 
 为提升 Graph View 区分度，已按文件夹设置分组配色（位于 `.obsidian/graph.json` 的 `colorGroups`）：
 
@@ -177,7 +236,7 @@ git pull --tags origin main
 
 ---
 
-## 五、目录结构
+## 六、目录结构
 
 | 文件夹 | 说明 |
 | --- | --- |
@@ -186,11 +245,12 @@ git pull --tags origin main
 | `通信` | 通信相关笔记 |
 | `项目` | 项目笔记 |
 | `Go` | Go 语言学习笔记 |
-| `skills` | 技能与脚本（含 Python 脚本） |
+| `skills` | 技能与脚本（含 Python 脚本、`开发日志` skill） |
+| `开发日志` | 每日开发记录（`YYYY-MM-DD.md`） |
 
 ---
 
-## 六、下一步
+## 七、下一步
 
 - 装 `Dataview` 做笔记索引与汇总。
 - 用 `Templater` 给每日笔记/项目笔记做模板。
@@ -199,4 +259,4 @@ git pull --tags origin main
 
 ---
 
-*本仓库由 Obsidian 编写，Git + GitHub 备份。*
+*本仓库由 Obsidian 编写，Git + GitHub 备份，开发日志由 git 钩子自动记录。*

@@ -11,10 +11,14 @@
             "id": "3d0d91733285d712",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "README"
             }
           }
         ]
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,6 +190,20 @@
   },
   "active": "3d0d91733285d712",
   "lastOpenFiles": [
+    "setup.sh",
+    "开发日志/2026-09-01.md",
+    "skills/开发日志/scripts/git-hooks/pre-push",
+    "skills/开发日志/scripts/git-hooks/post-commit",
+    "skills/开发日志/scripts/git-hooks",
+    "skills/开发日志/scripts/devlog.sh",
+    "README.md",
+    "开发日志",
+    "skills/开发日志/SKILL.md",
+    "skills/开发日志/references/format.md",
+    "skills/开发日志/references",
+    "skills/开发日志/scripts/add_devlog.py",
+    "skills/开发日志/scripts",
+    "skills/开发日志",
     "未命名.canvas",
     "未命名.base",
     "skills/知识库更新/SKILL.md",
@@ -201,25 +220,12 @@
     "通信/SSE/SSE 流式通信.md",
     "通信/SSE/Go SSE 流式响应.md",
     "通信/SSE/事件协议三端镜像.md",
-    "README.md",
     "容器/Docker/docker-compose 路径错位导致 make up 失败.md",
     "容器/Docker/Docker Compose 相对路径陷阱.md",
     "00-索引/首页.md",
     "Go/数据库/pgx 连接池与数据库迁移.md",
     "Go/数据库/连接池 Connection Pool.md",
     "project_study/ai_resume/20-技术概念/事件协议三端镜像.md",
-    "project_study/ai_resume/20-技术概念/SSE 流式通信.md",
-    "project_study/ai_resume/20-技术概念/Go 后端分层架构.md",
-    "project_study/ai_resume/20-技术概念/pgx 连接池与数据库迁移.md",
-    "project_study/ai_resume/20-技术概念/Go 作为网关代理 Python.md",
-    "project_study/ai_resume/20-技术概念",
-    "skills/知识库更新/scripts/update_kb.py",
-    "skills/知识库更新/assets/example_asset.txt",
-    "skills/知识库更新/assets",
-    "skills/知识库更新/references",
-    "skills/知识库更新/scripts/example.py",
-    "skills/知识库更新/scripts",
-    "skills/知识库更新",
-    "skills"
+    "project_study/ai_resume/20-技术概念/SSE 流式通信.md"
   ]
 }

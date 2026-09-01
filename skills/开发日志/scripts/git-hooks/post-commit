@@ -1,0 +1,22 @@
+#!/bin/sh
+# 每次 git commit 后,自动把提交信息写入开发日志(开发日志 skill 的底层脚本)。
+# 这是 tracked 副本:把它软链/复制到 .git/hooks/post-commit 即可启用。
+# WSL 下需可执行: chmod +x post-commit
+# 或统一指定: git config core.hooksPath skills/开发日志/scripts/git-hooks
+
+# 合并/变基产生的提交不记录,避免刷屏
+if [ -f "$(git rev-parse --git-dir)/MERGE_HEAD" ]; then
+  exit 0
+fi
+
+REPO=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0
+SCRIPT="$REPO/skills/开发日志/scripts/add_devlog.py"
+[ -f "$SCRIPT" ] || exit 0
+
+MSG=$(git log -1 --pretty=%B 2>/dev/null) || exit 0
+[ -n "$MSG" ] || exit 0
+DATE=$(date +%Y-%m-%d)
+
+python3 "$SCRIPT" --date "$DATE" "$MSG" 2>/dev/null || \
+python  "$SCRIPT" --date "$DATE" "$MSG" 2>/dev/null || \
+true

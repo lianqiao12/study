@@ -1,0 +1,19 @@
+#!/bin/sh
+# git push 前,记录一次推送行为到开发日志(开发日志 skill 的底层脚本)。
+# tracked 副本: git config core.hooksPath skills/开发日志/scripts/git-hooks 后即生效。
+# WSL 下需 chmod +x。远程名由 $1 传入;stdin 每行: local-ref local-sha remote-ref remote-sha
+remote="$1"
+
+while read local_ref local_sha remote_ref remote_sha; do
+  branch=${local_ref#refs/heads/}
+  n=$(git rev-list --count "$remote_sha".."$local_sha" 2>/dev/null || echo 0)
+  [ -z "$n" ] && n=0
+  msg="推送 $n 个提交到 $remote/$branch"
+
+  REPO=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0
+  SCRIPT="$REPO/skills/开发日志/scripts/add_devlog.py"
+  [ -f "$SCRIPT" ] || exit 0
+  python3 "$SCRIPT" "$msg" 2>/dev/null || python "$SCRIPT" "$msg" 2>/dev/null || true
+done
+
+exit 0
