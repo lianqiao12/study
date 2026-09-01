@@ -11,10 +11,14 @@
             "id": "3d0d91733285d712",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "中间件/Apollo 配置中心.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Apollo 配置中心"
             }
           }
         ]
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "中间件/Apollo 配置中心.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,6 +192,7 @@
   "lastOpenFiles": [
     "中间件/Apollo 配置中心 思维导图.svg",
     "中间件/Apollo 配置中心.md",
+    "Apollo 配置中心 思维导图.md",
     "中间件",
     "Apollo 配置中心 思维导图.svg",
     "容器/Docker/docker-compose 路径错位导致 make up 失败.md",
@@ -221,7 +227,6 @@
     "Go/os ReadDir 返回 DirEntry.md",
     "Go/Web/Go 后端分层架构.md",
     "Go/Web/Echo 框架路由装配.md",
-    "00-索引/首页.md",
-    "Go/数据库/pgx 连接池与数据库迁移.md"
+    "00-索引/首页.md"
   ]
 }
