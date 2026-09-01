@@ -4,43 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "40c8500389e4243d",
+        "id": "94d5802709ef68b6",
         "type": "tabs",
-        "dimension": 42.136150234741784,
         "children": [
           {
-            "id": "aba3a0984af77799",
+            "id": "3d0d91733285d712",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-索引/首页.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "首页"
-            }
-          }
-        ]
-      },
-      {
-        "id": "acb257f4f928c0ed",
-        "type": "tabs",
-        "dimension": 57.863849765258216,
-        "children": [
-          {
-            "id": "f45a69fa622cff8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Go/数据库/pgxpool 连接池库.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pgxpool 连接池库"
+              "title": "新标签页"
             }
           }
         ]
@@ -105,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "e1663d5051544820",
@@ -121,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-项目笔记/ai-resume 项目架构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,8 +183,28 @@
       "bases:新建数据库": false
     }
   },
-  "active": "f45a69fa622cff8c",
+  "active": "3d0d91733285d712",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "未命名.base",
+    "skills/知识库更新/SKILL.md",
+    "skills/知识库更新/references/categories.md",
+    "Go/Go for range 遍历.md",
+    "Go/数据库/pgxpool 连接池库.md",
+    "Go/Go defer 延迟执行与资源释放.md",
+    "Go/os ReadDir 返回 DirEntry.md",
+    "Go/Go 指针与值类型 为何返回星号.md",
+    "Go/Web/Go 后端分层架构.md",
+    "Go/Web/Echo 框架路由装配.md",
+    "项目/ai-resume/ai-resume 学习接手路线.md",
+    "项目/ai-resume/ai-resume 项目架构.md",
+    "通信/SSE/SSE 流式通信.md",
+    "通信/SSE/Go SSE 流式响应.md",
+    "通信/SSE/事件协议三端镜像.md",
+    "README.md",
+    "容器/Docker/docker-compose 路径错位导致 make up 失败.md",
+    "容器/Docker/Docker Compose 相对路径陷阱.md",
+    "00-索引/首页.md",
     "Go/数据库/pgx 连接池与数据库迁移.md",
     "Go/数据库/连接池 Connection Pool.md",
     "project_study/ai_resume/20-技术概念/事件协议三端镜像.md",
@@ -219,34 +212,14 @@
     "project_study/ai_resume/20-技术概念/Go 后端分层架构.md",
     "project_study/ai_resume/20-技术概念/pgx 连接池与数据库迁移.md",
     "project_study/ai_resume/20-技术概念/Go 作为网关代理 Python.md",
-    "project_study/ai_resume/20-技术概念/Go SSE 流式响应.md",
-    "project_study/ai_resume/20-技术概念/Echo 框架路由装配.md",
-    "project_study/ai_resume/20-技术概念/Docker Compose 相对路径陷阱.md",
     "project_study/ai_resume/20-技术概念",
-    "20-技术概念/pgx 连接池与数据库迁移.md",
-    "20-技术概念/Go 作为网关代理 Python.md",
-    "20-技术概念/Go SSE 流式响应.md",
-    "00-索引/首页.md",
-    "20-技术概念/Echo 框架路由装配.md",
-    "20-技术概念/Go 后端分层架构.md",
     "skills/知识库更新/scripts/update_kb.py",
-    "skills/知识库更新/references/categories.md",
     "skills/知识库更新/assets/example_asset.txt",
     "skills/知识库更新/assets",
-    "skills/知识库更新/references/api_reference.md",
     "skills/知识库更新/references",
     "skills/知识库更新/scripts/example.py",
     "skills/知识库更新/scripts",
-    "skills/知识库更新/SKILL.md",
     "skills/知识库更新",
-    "skills",
-    "10-项目笔记/ai-resume 项目架构.md",
-    "20-技术概念/SSE 流式通信.md",
-    "20-技术概念/Docker Compose 相对路径陷阱.md",
-    "20-技术概念/事件协议三端镜像.md",
-    "30-踩坑记录/docker-compose 路径错位导致 make up 失败.md",
-    "40-学习路线/ai-resume 学习接手路线.md",
-    "欢迎.md",
-    "40-学习路线"
+    "skills"
   ]
 }
