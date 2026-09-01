@@ -6,7 +6,15 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    { "query": "path:00-索引", "color": "#e6b800" },
+    { "query": "path:容器", "color": "#4ea1ff" },
+    { "query": "path:通信", "color": "#36c98d" },
+    { "query": "path:项目", "color": "#ff7a59" },
+    { "query": "path:Go", "color": "#00add8" },
+    { "query": "path:skills", "color": "#c77dff" },
+    { "query": "path:中间件", "color": "#f39c12" }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1,
+  "scale": 0.9999999999999992,
   "close": true
 }

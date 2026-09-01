@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="900" viewBox="0 0 1040 900" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <rect x="0" y="0" width="1040" height="900" fill="#f7f9fc"/>
+  <text x="520" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#2C3E50">Apollo 配置中心 · 思维导图</text>
+
+  <!-- ===== 连接线 root -> L1 ===== -->
+  <g fill="none" stroke-width="2" opacity="0.45">
+    <path d="M230,450 C265,450 265,100 300,100"  stroke="#4F86C6"/>
+    <path d="M230,450 C265,450 265,200 300,200"  stroke="#E8743B"/>
+    <path d="M230,450 C265,450 265,300 300,300"  stroke="#19A979"/>
+    <path d="M230,450 C265,450 265,400 300,400"  stroke="#945ECF"/>
+    <path d="M230,450 C265,450 265,500 300,500"  stroke="#13A4B4"/>
+    <path d="M230,450 C265,450 265,600 300,600"  stroke="#E33E3F"/>
+    <path d="M230,450 C265,450 265,700 300,700"  stroke="#F39C12"/>
+    <path d="M230,450 C265,450 265,800 300,800"  stroke="#6B4E9E"/>
+  </g>
+
+  <!-- ===== 连接线 L1 -> L2 ===== -->
+  <g fill="none" stroke-width="1.6" opacity="0.4">
+    <path d="M500,100 C530,100 530,74 560,74"   stroke="#4F86C6"/>
+    <path d="M500,100 C530,100 530,100 560,100" stroke="#4F86C6"/>
+    <path d="M500,100 C530,100 530,126 560,126" stroke="#4F86C6"/>
+
+    <path d="M500,200 C530,200 530,148 560,148" stroke="#E8743B"/>
+    <path d="M500,200 C530,200 530,174 560,174" stroke="#E8743B"/>
+    <path d="M500,200 C530,200 530,200 560,200" stroke="#E8743B"/>
+    <path d="M500,200 C530,200 530,226 560,226" stroke="#E8743B"/>
+    <path d="M500,200 C530,200 530,252 560,252" stroke="#E8743B"/>
+
+    <path d="M500,300 C530,300 530,261 560,261" stroke="#19A979"/>
+    <path d="M500,300 C530,300 530,287 560,287" stroke="#19A979"/>
+    <path d="M500,300 C530,300 530,313 560,313" stroke="#19A979"/>
+    <path d="M500,300 C530,300 530,339 560,339" stroke="#19A979"/>
+
+    <path d="M500,400 C530,400 530,374 560,374" stroke="#945ECF"/>
+    <path d="M500,400 C530,400 530,400 560,400" stroke="#945ECF"/>
+    <path d="M500,400 C530,400 530,426 560,426" stroke="#945ECF"/>
+
+    <path d="M500,500 C530,500 530,461 560,461" stroke="#13A4B4"/>
+    <path d="M500,500 C530,500 530,487 560,487" stroke="#13A4B4"/>
+    <path d="M500,500 C530,500 530,513 560,513" stroke="#13A4B4"/>
+    <path d="M500,500 C530,500 530,539 560,539" stroke="#13A4B4"/>
+
+    <path d="M500,600 C530,600 530,587 560,587" stroke="#E33E3F"/>
+    <path d="M500,600 C530,600 530,613 560,613" stroke="#E33E3F"/>
+
+    <path d="M500,700 C530,700 530,674 560,674" stroke="#F39C12"/>
+    <path d="M500,700 C530,700 530,700 560,700" stroke="#F39C12"/>
+    <path d="M500,700 C530,700 530,726 560,726" stroke="#F39C12"/>
+
+    <path d="M500,800 C530,800 530,761 560,761" stroke="#6B4E9E"/>
+    <path d="M500,800 C530,800 530,787 560,787" stroke="#6B4E9E"/>
+    <path d="M500,800 C530,800 530,813 560,813" stroke="#6B4E9E"/>
+    <path d="M500,800 C530,800 530,839 560,839" stroke="#6B4E9E"/>
+  </g>
+
+  <!-- ===== 根节点 ===== -->
+  <g>
+    <rect x="30" y="420" width="200" height="60" rx="12" fill="#2C3E50"/>
+    <text x="130" y="456" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">Apollo 配置中心</text>
+  </g>
+
+  <!-- ===== L1 节点 ===== -->
+  <g font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    <rect x="300" y="77"  width="200" height="46" rx="9" fill="#4F86C6"/><text x="400" y="105">定位与对比</text>
+    <rect x="300" y="177" width="200" height="46" rx="9" fill="#E8743B"/><text x="400" y="205">整体架构</text>
+    <rect x="300" y="277" width="200" height="46" rx="9" fill="#19A979"/><text x="400" y="305">四层模型</text>
+    <rect x="300" y="377" width="200" height="46" rx="9" fill="#945ECF"/><text x="400" y="405">配置获取</text>
+    <rect x="300" y="477" width="200" height="46" rx="9" fill="#13A4B4"/><text x="400" y="505">发布与灰度</text>
+    <rect x="300" y="577" width="200" height="46" rx="9" fill="#E33E3F"/><text x="400" y="605">客户端接入</text>
+    <rect x="300" y="677" width="200" height="46" rx="9" fill="#F39C12"/><text x="400" y="705">部署要点</text>
+    <rect x="300" y="777" width="200" height="46" rx="9" fill="#6B4E9E"/><text x="400" y="805">常见坑</text>
+  </g>
+
+  <!-- ===== L2 节点 ===== -->
+  <g font-size="13" fill="#222" text-anchor="middle">
+    <!-- B1 -->
+    <rect x="560" y="59"  width="280" height="30" rx="6" fill="#ffffff" stroke="#4F86C6" stroke-width="2"/><text x="700" y="79">携程开源 · 分布式配置中心</text>
+    <rect x="560" y="85"  width="280" height="30" rx="6" fill="#ffffff" stroke="#4F86C6" stroke-width="2"/><text x="700" y="105">对比 Nacos(配置+注册合一)</text>
+    <rect x="560" y="111" width="280" height="30" rx="6" fill="#ffffff" stroke="#4F86C6" stroke-width="2"/><text x="700" y="131">对比 SCC / etcd(配置弱)</text>
+    <!-- B2 -->
+    <rect x="560" y="133" width="280" height="30" rx="6" fill="#ffffff" stroke="#E8743B" stroke-width="2"/><text x="700" y="153">Config Service 读+推 · 8080</text>
+    <rect x="560" y="159" width="280" height="30" rx="6" fill="#ffffff" stroke="#E8743B" stroke-width="2"/><text x="700" y="179">Admin Service 写 · 8090</text>
+    <rect x="560" y="185" width="280" height="30" rx="6" fill="#ffffff" stroke="#E8743B" stroke-width="2"/><text x="700" y="205">Portal 管理界面 · 8070</text>
+    <rect x="560" y="211" width="280" height="30" rx="6" fill="#ffffff" stroke="#E8743B" stroke-width="2"/><text x="700" y="231">Meta Server / Eureka 发现</text>
+    <rect x="560" y="237" width="280" height="30" rx="6" fill="#ffffff" stroke="#E8743B" stroke-width="2"/><text x="700" y="257">Client 本地缓存兜底</text>
+    <!-- B3 -->
+    <rect x="560" y="246" width="280" height="30" rx="6" fill="#ffffff" stroke="#19A979" stroke-width="2"/><text x="700" y="266">环境 Environment 物理隔离</text>
+    <rect x="560" y="272" width="280" height="30" rx="6" fill="#ffffff" stroke="#19A979" stroke-width="2"/><text x="700" y="292">集群 Cluster</text>
+    <rect x="560" y="298" width="280" height="30" rx="6" fill="#ffffff" stroke="#19A979" stroke-width="2"/><text x="700" y="318">AppId 应用唯一标识</text>
+    <rect x="560" y="324" width="280" height="30" rx="6" fill="#ffffff" stroke="#19A979" stroke-width="2"/><text x="700" y="344">Namespace 私有 / 公共</text>
+    <!-- B4 -->
+    <rect x="560" y="359" width="280" height="30" rx="6" fill="#ffffff" stroke="#945ECF" stroke-width="2"/><text x="700" y="379">HTTP 长轮询 /notifications</text>
+    <rect x="560" y="385" width="280" height="30" rx="6" fill="#ffffff" stroke="#945ECF" stroke-width="2"/><text x="700" y="405">三级缓存 内存→文件→classpath</text>
+    <rect x="560" y="411" width="280" height="30" rx="6" fill="#ffffff" stroke="#945ECF" stroke-width="2"/><text x="700" y="431">本地文件 /opt/data</text>
+    <!-- B5 -->
+    <rect x="560" y="446" width="280" height="30" rx="6" fill="#ffffff" stroke="#13A4B4" stroke-width="2"/><text x="700" y="466">Portal → Admin → DB</text>
+    <rect x="560" y="472" width="280" height="30" rx="6" fill="#ffffff" stroke="#13A4B4" stroke-width="2"/><text x="700" y="492">ReleaseMessage + 5s 扫描兜底</text>
+    <rect x="560" y="498" width="280" height="30" rx="6" fill="#ffffff" stroke="#13A4B4" stroke-width="2"/><text x="700" y="518">灰度按 Client IP 匹配</text>
+    <rect x="560" y="524" width="280" height="30" rx="6" fill="#ffffff" stroke="#13A4B4" stroke-width="2"/><text x="700" y="544">小流量 → 全量 / 回滚</text>
+    <!-- B6 -->
+    <rect x="560" y="572" width="280" height="30" rx="6" fill="#ffffff" stroke="#E33E3F" stroke-width="2"/><text x="700" y="592">Java @EnableApolloConfig</text>
+    <rect x="560" y="598" width="280" height="30" rx="6" fill="#ffffff" stroke="#E33E3F" stroke-width="2"/><text x="700" y="618">Go 社区 agollo</text>
+    <!-- B7 -->
+    <rect x="560" y="659" width="280" height="30" rx="6" fill="#ffffff" stroke="#F39C12" stroke-width="2"/><text x="700" y="679">两库 PortalDB / ConfigDB</text>
+    <rect x="560" y="685" width="280" height="30" rx="6" fill="#ffffff" stroke="#F39C12" stroke-width="2"/><text x="700" y="705">端口 8080 / 8090 / 8070</text>
+    <rect x="560" y="711" width="280" height="30" rx="6" fill="#ffffff" stroke="#F39C12" stroke-width="2"/><text x="700" y="731">config/admin 无状态可扩</text>
+    <!-- B8 -->
+    <rect x="560" y="746" width="280" height="30" rx="6" fill="#ffffff" stroke="#6B4E9E" stroke-width="2"/><text x="700" y="766">meta 配成 Portal 地址</text>
+    <rect x="560" y="772" width="280" height="30" rx="6" fill="#ffffff" stroke="#6B4E9E" stroke-width="2"/><text x="700" y="792">app.id 不匹配</text>
+    <rect x="560" y="798" width="280" height="30" rx="6" fill="#ffffff" stroke="#6B4E9E" stroke-width="2"/><text x="700" y="818">env 错连环境</text>
+    <rect x="560" y="824" width="280" height="30" rx="6" fill="#ffffff" stroke="#6B4E9E" stroke-width="2"/><text x="700" y="844">长轮询被网关截断</text>
+  </g>
+</svg>

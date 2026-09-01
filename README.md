@@ -231,6 +231,7 @@ chmod +x "$(git rev-parse --show-toplevel)/skills/开发日志/scripts/git-hooks
 | `项目` | 橙红 | `#ff7a59` |
 | `Go` | Go 青 | `#00add8` |
 | `skills` | 紫 | `#c77dff` |
+| `中间件` | 橙 | `#f39c12` |
 
 > ⚠️ 修改图谱配色后，需**彻底退出并重启 Obsidian** 才生效；面板开启时关闭会把它写回空分组。
 
@@ -246,6 +247,7 @@ chmod +x "$(git rev-parse --show-toplevel)/skills/开发日志/scripts/git-hooks
 | `项目` | 项目笔记 |
 | `Go` | Go 语言学习笔记 |
 | `skills` | 技能与脚本（含 Python 脚本、`开发日志` skill） |
+| `中间件` | 中间件 / 配置中心相关笔记（如 Apollo） |
 | `开发日志` | 每日开发记录（`YYYY-MM-DD.md`） |
 
 ---
