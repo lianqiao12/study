@@ -188,8 +188,11 @@
       "bases:新建数据库": false
     }
   },
-  "active": "3d0d91733285d712",
+  "active": "1a4b26daf27b715d",
   "lastOpenFiles": [
+    "认证/SSO/单点登录 SSO 知识点.md",
+    "认证/SSO",
+    "认证",
     "中间件/Apollo 配置中心 思维导图.svg",
     "中间件/Apollo 配置中心.md",
     "Apollo 配置中心 思维导图.md",
@@ -219,8 +222,6 @@
     "skills/开发日志/scripts/devlog.sh",
     "开发日志",
     "skills/开发日志/references",
-    "skills/开发日志/scripts/add_devlog.py",
-    "skills/开发日志/scripts",
     "未命名.canvas",
     "skills/知识库更新/SKILL.md",
     "skills/知识库更新/references/categories.md",
